@@ -25,3 +25,7 @@ docker build -t todo-app .
 ```bash
 docker run -p 5000:5000 todo-app
 ```
+Run with docker-compose.yaml
+```bash
+docker compose up --build
+```
